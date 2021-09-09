@@ -1,6 +1,6 @@
 package day_9_9;
 
-public class GoodCalc {
+public class GoodCalc extends Calculator{
 
 	public int add(int a, int b) { //추상 메소드 구현
 		return a+b;
@@ -25,4 +25,9 @@ public class GoodCalc {
 		System.out.println(c.average(new int [] {2, 3, 4}));
 	}
 
+}
+abstract class Calculator{					//추상 클래스 생성
+	public abstract int add(int a, int b);
+	public abstract int subtract(int a, int b);
+	public abstract double average(int [] a);
 }
