@@ -1,4 +1,4 @@
-package day_9_9;
+package day_9_9; 
 
 public class GoodCalc extends Calculator{
 
